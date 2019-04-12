@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href = "style.css" rel = "stylesheet" type = "text/css"/>
+    </head>
+    <body>
+      <div id="navbar">
+        <a href="#Home">Home</a>
+        <a href="#Contact">Contact</a>
+      </div>
+
+      <div class="parallax">
+        <p><img src="https://i.imgur.com/P83hY93.jpg?1"></p>
+      </div>
+
+      <div class="content" id = "Home">
+        <h3>Kenneth Ofosu</h3>
+        <p>Hello, all, my name is Kenneth. I am 29 years old, and I live in Brooklyn, New York. I was born and raised in Manhattan, and left
+          New York at the age of 19 to join the Army, but not before trying college for a year. I attended St. John's University from August
+          2006 to May 2007 to study physics. I joined the Army in December 2008 as a combat medic and returned in September 2014 I consider myself a fairly simple man, 
+          but i have a great deal of hobbies and interests that span a variety of areas, such as drumming and web development. I am hoping
+        that completing an immersive program at General Assembly will give me the tools I need to break into the field of software engineering.</p>
+      </div>
+
+      <div class="parallax"></div>
+
+      <div class="content">  
+        <p id = "Contact"><h3>Contact Form</h3>
+          <span id ="span">
+            <p>Please take the time to send me a message if you would like to stay in touch with me!</p>
+            <div id="container">
+              <form >
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+            
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+            
+                <label for="subject">Message</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
+            
+                <input id="enter" type="submit" value="Submit" onclick="success()">
+              </form>
+            </div>
+          </span>
+        </p>  
+      </div>
+
+      <div class="parallax"></div>
+
+      <script src = "scripts.js"></script>
+      
+    </body>
+</html>

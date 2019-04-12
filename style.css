@@ -1,0 +1,95 @@
+body {
+          margin: 0;
+          font-size: 28px;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #navbar {
+          overflow: hidden;
+          background-color: #333;
+        }
+
+        #navbar a {
+          float: left;
+          display: block;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+        }
+
+        #navbar a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+
+        span {
+          text-align: center;
+        }
+        
+        .content {
+          padding: 16px;
+        }
+
+        .sticky {
+          position: fixed;
+          top: 0;
+          width: 100%;
+        }
+
+        .sticky + .content {
+          padding-top: 60px;
+        }
+
+        .parallax {
+          
+          background-image: url("../parallax.jpeg");
+          min-height: 500px;
+          background-attachment:fixed;
+          background-position:center;
+          background-repeat:no-repeat;
+          background-size:cover;
+        }
+        img {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          border-radius:50%;
+          border-width:50px;
+          border-color:black;
+        }
+        h3 {
+          text-align:center;
+        }
+
+        input[type=text], select, textarea {
+          width: 100%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical;
+        }
+
+        input[type=submit] {
+          background-color: #4CAF50;
+          color: white;
+          padding: 12px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+          background-color: #45a049;
+        }
+
+        #container {
+          border-radius: 5px;
+          background-color: #f2f2f2;
+          padding: 20px;
+        }
